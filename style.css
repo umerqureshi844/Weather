@@ -1,0 +1,281 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+
+body>#video {
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  position: fixed;
+  object-fit: cover;
+  z-index: -1;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  /* background-color: #fff; */
+  background-color: #09122C;
+
+  margin-top: -2vw;
+  height: 7vw;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  align-items: center;
+}
+
+.heading {
+  display: flex;
+  align-items: center;
+
+}
+
+
+.heading>h2 {
+  margin-top: 2vw;
+  margin-left: 2vw;
+  color: #696FC7;
+  font-family: "Orbitron", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+
+.heading>.img>img {
+  height: 3vw;
+  margin-top: 2vw;
+}
+
+.cityname {
+  margin-top: -2vw;
+}
+
+.list {
+  display: flex;
+  justify-content: space-between;
+  margin-right: 5vw;
+}
+
+.list ul {
+  display: flex;
+  list-style: none;
+  gap: 1vw;
+  margin-top: 2vw;
+  margin-left: 3vw;
+  font-size: 1.2vw;
+  color: #696FC7;
+  margin-top: 3vw;
+}
+
+nav>.list>ul>#east:hover {
+  color: #628141;
+  cursor: pointer;
+}
+
+nav>.list>ul>#west:hover {
+  color: #628141;
+  cursor: pointer;
+}
+
+nav>.list>ul>#north:hover {
+  color: #628141;
+  cursor: pointer;
+}
+
+nav>.list>ul>#south:hover {
+  color: #628141;
+  cursor: pointer;
+}
+
+nav>.list>.input>.City-Name {
+  margin-top: 2vw;
+  height: 3vw;
+  width: 17vw;
+  margin-left: 1vw;
+  padding: 0vw 1vw;
+  border: none;
+  background-color: #09122C;
+  /* background-color: #696FC7; */
+
+}
+
+
+nav>.list>.input>.City-Name::placeholder {
+  color: aqua;
+  font-size: 1vw;
+  transition: all 4s;
+}
+
+
+nav>.list>.input>.City-Name:focus::placeholder {
+  color: #696FC7;
+  transform: translateX(2vw);
+}
+
+nav>.list>.input>.City-Name:focus {
+  outline-color: #696FC7;
+  caret-color: #696FC7;
+  color: #fff;
+  font-size: 0.9vw;
+}
+
+nav>.list>.input>.City-Name>datalist {
+  position: relative;
+}
+
+
+nav>.list>.input>.Search {
+  height: 3vw;
+  width: 5vw;
+  margin-left: 0.3vw;
+  padding: 0.1vw;
+  cursor: pointer;
+  border: none;
+  background-color: #628141;
+  color: #fff;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  font-size: 16px;
+  
+}
+
+nav>.list>.input>.Search:hover {
+  background-color: #628141;
+  color: #fff;
+}
+
+
+.flex {
+  display: flex;
+  justify-content: center;
+}
+
+.box {
+  margin-top: 6vw;
+  height: 17vw;
+  width: 22vw;
+  /* background-color: #fff; */
+  background-color: #09122C;
+
+  border-radius: 1vw;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  margin-left: 3vw;
+  flex-wrap: wrap;
+  transition: all 0.5s ease;
+}
+
+.box:hover {
+  /* cursor: pointer; */
+  height: 19vw;
+  width: 25vw;
+
+}
+
+.city {
+  display: flex;
+  justify-content: center;
+}
+
+.city>.City-Name {
+  margin-top: 5vw;
+  height: 4vw;
+  width: 17vw;
+  margin-left: 1vw;
+  padding: 0vw 1vw;
+  border: none;
+  background-color: #09122C;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  font-size: 1vw;
+  color: #fff;
+}
+
+.city>.City-Name:focus {
+  outline-color: #09122C;
+  caret-color: #696FC7;
+  color: #fff;
+}
+
+.city>.City-Name::placeholder {
+  color: aqua;
+  transition: all 4s;
+}
+
+
+.city>.City-Name:focus::placeholder {
+  color: #696FC7;
+  transform: translateX(2vw);
+}
+
+.city>.Search {
+  margin-top: 5vw;
+  height: 4vw;
+  width: 8vw;
+  margin-left: 1vw;
+  padding: 0vw 1vw;
+  border: none;
+  background-color: #fff;
+  /* background-color: #628141; */
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+
+}
+
+.city>.Search{
+  color: #fff;
+  background-color: #628141;
+  font-size: 16px;
+}
+
+.city>.Search:hover {
+  background-color: #628141;
+  color: #fff;
+  cursor: pointer;
+}
+
+.box>h3 {
+  color: #696FC7;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2vw;
+}
+
+.box>p {
+  color: #8FABD4;
+  font-size: 1vw;
+  width: 15vw;
+  margin-top: 3vw;
+  margin-left: 3vw;
+}
+
+.box>h1 {
+  color: #696FC7;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 5vw;
+}
+
+.input{
+  position: relative;
+}
+
+.input > .Error{
+  position: absolute;
+  color: red;
+  margin-top: 2.7vw;
+  margin-left: 2vw;
+}
+
+.city{
+  position: relative;
+}
+
+.city > .Error{
+  position: absolute;
+  color: red;
+  margin-top: 6.4vw;
+  margin-left: -16vw;
+}
+
+

@@ -1,0 +1,347 @@
+/* ---------------- NAVBAR RESPONSIVE ---------------- */
+@media (max-width:1200px){
+  .list ul{
+    gap: 2vw;
+    font-size: 1.6vw;
+  }
+
+     nav >.list >.input >.Search{
+    font-size: 1vw;
+  }
+
+     .city > .Search{
+      height: 7vw;
+   }
+
+   .city .City-Name{
+    width: 30vw;
+    height: 7vw;
+    font-size: 2vw;
+  }
+}
+
+
+@media (max-width:1024px){
+  .list ul{
+    gap: 2vw;
+    font-size: 1.6vw;
+  }
+
+     nav >.list >.input >.Search{
+    font-size: 1vw;
+  }
+}
+
+@media (max-width:860px){
+  .list ul{
+    gap: 2.5vw;
+    font-size: 2vw;
+  }
+  .heading h2{
+    font-size: 2.6vw;
+  }
+  .heading .img img{
+    height: 4vw;
+  }
+
+  .flex > .box p{
+    width: 65vw;
+    text-align: center;
+    margin-left: 7vw;
+  }
+   nav >.list >.input >.Search{
+    font-size: 1vw;
+  }
+
+  
+
+
+}
+
+@media (max-width:740px){
+  .list ul{
+    gap: 3vw;
+    font-size: 2.4vw;
+  }
+  .heading h2{
+    font-size: 3vw;
+  }
+  .heading .img img{
+    height: 5vw;
+  }
+
+    nav >.list >.input >.Search{
+    font-size: 1vw;
+  }
+ nav .input .City-Name,
+  nav .input .Search {
+    display: none !important;
+      display: none !important; 
+  }
+    .input >.City-Name::placeholder{
+    font-size: 1;
+    
+  }
+ 
+  .city>.Search{
+  color: #fff;
+  width: 12vw;
+  background-color: #628141;
+  font-size: 16px;
+   }
+
+   .city > .Search{
+      height: 5vw;
+   }
+
+   .city .City-Name{
+    width: 30vw;
+    height: 5vw;
+    font-size: 2vw;
+  }
+
+}
+
+
+/* ---------------- 680px & BELOW ---------------- */
+/*  
+  ✔ Input gayab  
+  ✔ Search gayab  
+  ✔ Navbar compact  
+  ✔ List items center & smaller  
+*/
+
+@media (max-width:680px){
+
+  /* Navbar Height */
+  nav {
+    height: 12vw;
+  }
+
+  /* LIST items */
+  .list ul {
+    font-size: 3vw;
+    gap: 4vw;
+    margin-top: 4vw;
+  }
+
+   .city > .Search{
+      height: 7vw;
+   }
+
+   .city .City-Name{
+    width: 40vw;
+    height: 7vw;
+    font-size: 2vw;
+  }
+
+   nav .input .City-Name,
+  nav .input .Search {
+    display: none !important;
+      display: none !important; 
+  }
+
+
+  /* INPUT + SEARCH HIDE */
+
+}
+/* ---------------- 580px ---------------- */
+@media (max-width:598px){
+  nav {
+    height: 14vw;
+  }
+  .list ul{
+    font-size: 4vw;
+    gap: 5vw;
+  }
+
+   .city > .Search{
+      height: 7vw;
+   }
+
+   .city .City-Name{
+    width: 40vw;
+    height: 7vw;
+    font-size: 2vw;
+  }
+
+}
+
+
+/* ---------------- 480px ---------------- */
+
+@media (max-width:480px){
+  nav{
+    height: 15vw;
+  }
+  .list ul{
+    font-size: 4.5vw;
+    gap: 6vw;
+  }
+
+    .box{
+    width: 90%;
+  }
+
+  
+  .city .City-Name{
+    width: 50vw;
+    height: 10vw;
+    font-size: 4vw;
+  }
+  .city .Search{
+    width: 20vw;
+    height: 10vw;
+    font-size: 4vw;
+  }
+
+    .Error{
+    font-size: 3vw !important;
+    text-align: center;
+    width: 100%;
+    margin-top: 2vw;
+    white-space: nowrap;       /* line break nahi hoga */
+    overflow: hidden;          /* overflow hide */
+  }
+
+}
+
+
+/* ---------------- 370px ---------------- */
+
+@media (max-width:370px){
+
+.heading > h2{
+  font-size: 5vw;
+}  
+
+.heading >  .img > img{
+  height: 10vw;
+  margin-top: 3vw;
+}
+
+  nav{
+    height: 17vw;
+  }
+  .list ul{
+    font-size: 3.4vw;
+    gap: 4vw;
+  }
+
+  .city > .Error{
+    font-size: 3vw !important;
+    text-align: center;
+    margin-left: -25vw;
+    width: 100%;
+    margin-top: 8vw;
+
+    white-space: nowrap;       /* line break nahi hoga */
+    overflow: hidden;          /* overflow hide */
+  }
+
+  .city >.City-Name:focus{
+    font-size: 3vw;
+  }
+
+  .city >.City-Name::placeholder{
+    color: aqua;
+    font-size: 3vw;
+    padding-left: 2vw;
+  }
+
+  .box:hover{
+    height: 43vw;
+    width: 73vw;
+    text-align: center;
+
+  } 
+
+  .box > P:hover{
+    text-align: center;
+    margin-left: 2vw;
+  }
+
+   .flex >.box>p{
+    font-size: 3.3vw;
+  }
+  
+ 
+}
+
+
+/* ---------------- 250px ---------------- */
+
+@media (max-width:250px){
+  nav{
+    height: 18vw;
+  }
+  .list ul{
+    font-size: 6vw;
+    gap: 8vw;
+  }
+}
+
+
+
+/* ---------------- FLEX BOX RESPONSIVE ---------------- */
+
+.flex{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 4vw;
+}
+
+.box{
+  width: 22vw;
+  height: 17vw;
+}
+
+/* 860px → Boxes in column */
+@media (max-width:860px){
+  .flex{
+    flex-direction: column;
+    align-items: center;
+  }
+  .box{
+    width: 80%;
+    height: auto;
+    padding: 3vw 0;
+  }
+  .box h1{
+    font-size: 12vw;
+  }
+  .box h3{
+    font-size: 6vw;
+  }
+  .box p{
+    font-size: 4vw;
+    text-align: center;
+    margin: 3vw;
+  }
+
+}
+
+/* 480px → Bigger Inputs in CITY section */
+
+
+@media (max-width: 750px) {
+
+    nav .list .input {
+        display: none !important;   /* 🔥 NAV input */
+    }
+
+    nav .list .input .Error {
+        display: none !important;   /* JS error  */
+    }
+
+    nav .list .input .City-Name {
+        display: none !important;
+    }
+
+    nav .list .input .Search {
+        display: none !important;
+    }
+}
+
+
